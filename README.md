@@ -2,6 +2,11 @@
 python front-end TK minimal interface for sending data in HTTP GET requests via string appended to URI context
 
 Edit the sendit function to replace YOURSERVERGOESHERE with your webserver or backend server. 
+If you are on a unix based system like mac, linux, or bsd, you can use the included sh_sb program
+to configure a copy that is edited automatically:
+
+chmod +x sh_sb
+./sh_sb $YOURURL
 
 Note that if you just send to a default NGINX or Apache2 server configuration,
 the data will be stored to disk and readable by the administrator 
