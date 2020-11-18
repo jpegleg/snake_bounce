@@ -1,7 +1,15 @@
 # snake_bounce
 python front-end TK minimal interface for sending data in HTTP GET requests via string appended to URI context
 
-Edit the sendit function to replace YOURSERVERGOESHERE with your webs erver or backend server.        
+Edit the sendit function to replace YOURSERVERGOESHERE with your webserver or backend server. 
+
+# Note that if you just send to a default NGINX or Apache2 server configuration,
+# the data will be stored to disk and readable by the administrator of the server
+# because base64 is not encryption, just there for transport in this case.
+
+# See https://github.com/jpegleg/badger-chainz for example server data configuration
+Store the web logs to disk and then pipe data from memory into a
+local block chain or just file organizing, with optional configurable encryption layers.
 
 # Note that snake bounce should basically always get an HTTP 404 when it works...           
 
