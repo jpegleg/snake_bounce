@@ -15,5 +15,6 @@ sed -i "s/YOURSERVERGOESHERE/$servername/g" snake_bounce.py.template
 echo "Making program to run as sb.py"
 mv snake_bounce.py.template sb.py
 echo "Running snake bounce as sb.py now"
-
+echo "Trying $(which python) first, then if that exits in error we'll try $(which python3)"
+echo "and if that exits in error we'll try $(which python27) ..."
 python sb.py || python3 sb.py || python27 sb.py
