@@ -3,9 +3,10 @@ python front-end TK minimal interface for sending data in HTTP GET requests via 
 
 Edit the sendit function to replace YOURSERVERGOESHERE with your webserver or backend server. 
 
-# Note that if you just send to a default NGINX or Apache2 server configuration,
-# the data will be stored to disk and readable by the administrator of the server
-# because base64 is not encryption, just there for transport in this case.
+Note that if you just send to a default NGINX or Apache2 server configuration,
+the data will be stored to disk and readable by the administrator 
+or anyone who has access to that disk of the server
+because base64 is not encryption, just there for transport in this case.
 
 # See https://github.com/jpegleg/badger-chainz for example server data configuration
 Store the web logs to disk and then pipe data from memory into a
