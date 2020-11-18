@@ -10,4 +10,4 @@ echo "Making program to run as sb.py"
 mv snake_bounce.py.template sb.py
 echo "Running snake bounce as sb.py now"
 
-python3 sb.py
+python sb.py
