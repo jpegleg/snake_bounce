@@ -17,9 +17,9 @@ Edit the sendit functionto replace YOURSERVERGOESHERE with your webs erver or ba
  As long as your server uses HTTPS and you are not MITM'd with a proxy on a (work) network                    
  the data you send will be encrypted in transit. There is also the potential to                               
  do encryption afterwards on the server side with the data, and/or before in                                
- another function, which is demonstrated in the snake_bounce_fernet.py version.                            
+ another function etc.                           
                                                                                                            
  # Made for either python2 or python3   
                                                                     
- Anaconda python has all of the modules ready to go                                                        .
+ Anaconda python has all of the modules ready to go.                                                        .
 
