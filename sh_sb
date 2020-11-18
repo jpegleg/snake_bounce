@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+
+echo "Making a copy to edit."
+cp snake_bounce.py snake_bounce.py.template
+echo "Enter your server name."
+read servername
+echo "Using $servername as server name"
+sed -i "s/YOURSERVERGOESHERE/$servername/g" snake_bounce.py.template
+echo "Making program to run as sb.py"
+mv snake_bounce.py.template sb.py
+echo "Running snake bounce as sb.py now"
+
+python3 sb.py
