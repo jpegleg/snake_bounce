@@ -2,8 +2,14 @@
 
 echo "Making a copy to edit."
 cp snake_bounce.py snake_bounce.py.template
-echo "Enter your server name."
-read servername
+
+if [ -z "$1"  ]; then
+  server="$1"
+else
+  echo "Enter your server name."
+  read servername
+fi
+
 echo "Using $servername as server name"
 sed -i "s/YOURSERVERGOESHERE/$servername/g" snake_bounce.py.template
 echo "Making program to run as sb.py"
