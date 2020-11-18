@@ -6,6 +6,7 @@ If you are on a unix based system like mac, linux, or bsd, you can use the inclu
 to configure a copy that is edited automatically:
 
 chmod +x sh_sb
+
 ./sh_sb $YOURURL
 
 Note that if you just send to a default NGINX or Apache2 server configuration,
