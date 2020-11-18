@@ -4,10 +4,10 @@ echo "Making a copy to edit."
 cp snake_bounce.py snake_bounce.py.template
 
 if [ -z "$1"  ]; then
-  server="$1"
-else
   echo "Enter your server name."
   read servername
+else
+  server="$1"
 fi
 
 echo "Using $servername as server name"
@@ -16,4 +16,4 @@ echo "Making program to run as sb.py"
 mv snake_bounce.py.template sb.py
 echo "Running snake bounce as sb.py now"
 
-python sb.py
+python sb.py || python3 sb.py || python27 sb.py
