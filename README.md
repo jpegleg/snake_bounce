@@ -21,5 +21,5 @@ Edit the sendit function to replace YOURSERVERGOESHERE with your webs erver or b
                                                                                                            
  # Made for either python2 or python3   
                                                                     
- Anaconda python has all of the modules ready to go.                                                        .
+ Anaconda python has all of the modules ready to go.
 
