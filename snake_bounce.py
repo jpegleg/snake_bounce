@@ -1,6 +1,4 @@
 import base64
-import json
-import urllib
 import urllib.request
 from tkinter import Tk, Entry, Button, INSERT
 
