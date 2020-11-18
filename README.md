@@ -3,7 +3,7 @@ python front-end for sending data in HTTP GET requests via string appended to UR
 
 Edit the sendit functionto replace YOURSERVERGOESHERE with your webs erver or backend server.        
 
-# Note that snake_bounce.py should basically always get an HTTP 404 when it works...           
+# Note that snake bounce should basically always get an HTTP 404 when it works...           
 
  The idea is to use this to send the data to a server                                                      
  in an HTTPS GET request via data packed into the URI context.                                              
