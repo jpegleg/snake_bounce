@@ -1,7 +1,7 @@
 # snake_bounce
-python front-end for sending data in HTTP GET requests via string appended to URI context
+python front-end TK minimal interface for sending data in HTTP GET requests via string appended to URI context
 
-Edit the sendit functionto replace YOURSERVERGOESHERE with your webs erver or backend server.        
+Edit the sendit function to replace YOURSERVERGOESHERE with your webs erver or backend server.        
 
 # Note that snake bounce should basically always get an HTTP 404 when it works...           
 
