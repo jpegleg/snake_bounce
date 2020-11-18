@@ -7,7 +7,7 @@ if [ -z "$1"  ]; then
   echo "Enter your server name."
   read servername
 else
-  server="$1"
+  servername="$1"
 fi
 
 echo "Using $servername as server name"
