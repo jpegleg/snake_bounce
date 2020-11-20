@@ -16,7 +16,7 @@ the data will be stored to disk and readable by the administrator
 or anyone who has access to that disk of the server
 because base64 is not encryption, just there for transport in this case.
 
-# See https://github.com/jpegleg/badger-chainz for example server data configuration
+## See https://github.com/jpegleg/badger-chainz for example server data configuration
 Store the web logs to disk and then pipe data from memory into a
 local block chain or just file organizing, with optional configurable encryption layers.
 
