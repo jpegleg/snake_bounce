@@ -1,3 +1,5 @@
+![snake_bounce](https://carefuldata.com/images/cdlogo.png)
+
 # snake_bounce
 python front-end TK minimal interface for sending data in HTTP GET requests via string appended to URI context
 
@@ -18,7 +20,7 @@ because base64 is not encryption, just there for transport in this case.
 Store the web logs to disk and then pipe data from memory into a
 local block chain or just file organizing, with optional configurable encryption layers.
 
-# Note that snake bounce should basically always get an HTTP 404 when it works...           
+###### Note that snake bounce should basically always get an HTTP 404 when it works...           
 
  The idea is to use this to send the data to a server                                                      
  in an HTTPS GET request via data packed into the URI context.                                              
@@ -34,8 +36,9 @@ local block chain or just file organizing, with optional configurable encryption
  do encryption afterwards on the server side with the data, and/or before in                                
  another function etc.                           
                                                                                                            
- # Made for either python2 or python3   
+###### Made for either python2 or python3   
                                                                     
  Anaconda python has all of the modules ready to go.
 
-/code test
+
+
